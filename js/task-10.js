@@ -25,7 +25,7 @@ const destroyBoxes = () => {
   findCreatedBoxes.forEach((B) => {
     B.remove();
   });
-  console.log(`Destroy ${findCreatedBoxes.length} boxes`)
+  console.log(`Destroy ${findCreatedBoxes.length} boxes`);
   currentBoxSize = 30;
 };
 
