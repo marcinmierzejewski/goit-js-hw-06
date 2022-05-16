@@ -18,6 +18,7 @@ const createBoxes = () => {
     createDiv.append(newBoxes);
     currentBoxSize += 10;
   }
+  inputValue.value = null;
 };
 
 const destroyBoxes = () => {
